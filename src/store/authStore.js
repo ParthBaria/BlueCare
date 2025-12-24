@@ -4,6 +4,7 @@ import { authAPI } from '../lib/api';
 import toast from 'react-hot-toast';
 
 export const useAuthStore = create(
+  // authntication 
   persist(
     (set, get) => ({
       user: null,
